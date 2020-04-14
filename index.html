@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>#cosis</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+       
+    <div id="pomodoro-app">
+        <h1>#Cosis que hacer hoy</h1>
+
+        <div id="container">
+          <div id="timer">
+            <div id="time">
+              <span id="minutes">25</span>
+              <span id="colon">:</span>
+              <span id="seconds">00</span>
+            </div>
+            <div id="filler"></div>
+          </div>
+      
+          <div id="buttons">
+            <button id="work" style="width: 35px;">Work</button>
+            <button id="shortBreak" style="width: 55px;">Break 5'</button>
+            <button id="longBreak" style="width: 65px;"> Break 15'</button>
+            <button id="stop" style="width: 35px;">Stop</button>
+          </div>
+        </div>
+      </div>  
+
+    <div class="row" >
+    <div class="column">
+
+    <div id="todo">
+      <form class="" action="index.html" method="post">
+        <input type="text" placeholder="Hoy toca..." name="task">
+        <button  type="submit"><strong>❤︎</strong></button>
+      </form>
+      <div class="tasksBoard">
+        <ul>
+            <li><span class="delete">❌</span><input type="checkbox"><label>Tesis</label></li>
+            <li><span class="delete">❌</span><input type="checkbox"><label>Yoga</label></li>
+            <li><span class="delete">❌</span><input type="checkbox"><label>Datacamp</label></li>
+          </ul>
+  
+        <a id="clear">Vaciar lista</a>
+      </div>
+    </div>
+    </div>
+    <div class="column"> 
+        
+        <div class="notebook">
+            <header></header>
+            <span class="extraPages">
+            <textarea id="page" cols="30" rows="10" placeholder="Notas"></textarea>
+            </span>
+            </div>    
+        </div>
+</div>
+    <script type="text/javascript" src="app.js"></script>
+    <script type = "text/javascript" src = "timer.js"></script>
+  </body>
+  
+</html>
